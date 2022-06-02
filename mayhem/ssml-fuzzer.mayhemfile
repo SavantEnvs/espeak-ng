@@ -1,0 +1,4 @@
+project: PROJECT
+target: ssml-fuzzer
+cmds:
+- cmd: /out/ssml-fuzzer
