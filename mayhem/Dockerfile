@@ -15,7 +15,7 @@
 ################################################################################
 
 FROM gcr.io/oss-fuzz-base/base-builder
-RUN apt-get update && apt install -y automake autoconf libtool pkg-config
+RUN apt-get update && apt install -y cmake pkg-config
 COPY . espeak-ng
 COPY mayhem/build.sh $SRC
 WORKDIR $SRC/espeak-ng

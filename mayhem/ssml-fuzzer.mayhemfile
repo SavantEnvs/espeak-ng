@@ -1,4 +1,4 @@
-project: PROJECT
+project: espeak-ng
 target: ssml-fuzzer
 cmds:
 - cmd: /out/ssml-fuzzer
