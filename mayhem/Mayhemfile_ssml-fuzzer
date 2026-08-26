@@ -1,0 +1,10 @@
+project: savantenvs/espeak-ng
+target: ssml-fuzzer
+
+cmds:
+  - cmd: /mayhem/build/ssml-fuzzer
+    libfuzzer: true
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ssml-fuzzer/testsuite
